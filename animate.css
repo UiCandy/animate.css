@@ -166,110 +166,30 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @-webkit-keyframes heartbeat {
-  0% {
+  0%, 10%, 20%, 65%, 75%, 85% {
     -webkit-transform: scale3d(1, 1, 1);
-            transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
   }
-
-  5% {
-    -webkit-transform: scale3d(1.05, 1.05, 1.05);
-            transform: scale3d(1.05, 1.05, 1.05);
-  }
-  10% {
-    -webkit-transform: scale3d(1, 1, 1);
-            transform: scale3d(1, 1, 1);
-  }
-
-  15% {
-    -webkit-transform: scale3d(1.05, 1.05, 1.05);
-            transform: scale3d(1.05, 1.05, 1.05);
-  }
-
-
-  20% {
-      -webkit-transform: scale3d(1, 1, 1);
-              transform: scale3d(1, 1, 1);
-  }
-  65%{
-  -webkit-transform: scale3d(1, 1, 1);
-          transform: scale3d(1, 1, 1);	
-  }
-  70% {
-      -webkit-transform: scale3d(1.05, 1.05, 1.05);
-              transform: scale3d(1.05, 1.05, 1.05);
-  }
-
-  75% {
-    -webkit-transform: scale3d(1, 1, 1);
-            transform: scale3d(1, 1, 1);
-  }
-
-  80% {
-    -webkit-transform: scale3d(1.05, 1.05, 1.05);
-            transform: scale3d(1.05, 1.05, 1.05);
-  }
-
-
-  85% {
-      -webkit-transform: scale3d(1, 1, 1);
-              transform: scale3d(1, 1, 1);
+  5%, 15%, 70%, 80% {
+    -webkit-transform: scale3d(1.05, 1.05, 1 );
+    transform: scale3d(1.05, 1.05, 1);
   }
 }
 
 @keyframes heartbeat {
-  0% {
+  0%, 10%, 20%, 65%, 75%, 85% {
     -webkit-transform: scale3d(1, 1, 1);
-            transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
   }
-
-  5% {
-    -webkit-transform: scale3d(1.05, 1.05, 1.05);
-            transform: scale3d(1.05, 1.05, 1.05);
-  }
-  10% {
-    -webkit-transform: scale3d(1, 1, 1);
-            transform: scale3d(1, 1, 1);
-  }
-
-  15% {
-    -webkit-transform: scale3d(1.05, 1.05, 1.05);
-            transform: scale3d(1.05, 1.05, 1.05);
-  }
-
-
-  20% {
-      -webkit-transform: scale3d(1, 1, 1);
-              transform: scale3d(1, 1, 1);
-  }
-  65%{
-  -webkit-transform: scale3d(1, 1, 1);
-          transform: scale3d(1, 1, 1);	
-  }
-  70% {
-      -webkit-transform: scale3d(1.05, 1.05, 1.05);
-              transform: scale3d(1.05, 1.05, 1.05);
-  }
-
-  75% {
-    -webkit-transform: scale3d(1, 1, 1);
-            transform: scale3d(1, 1, 1);
-  }
-
-  80% {
-    -webkit-transform: scale3d(1.05, 1.05, 1.05);
-            transform: scale3d(1.05, 1.05, 1.05);
-  }
-
-
-  85% {
-      -webkit-transform: scale3d(1, 1, 1);
-              transform: scale3d(1, 1, 1);
+  5%, 15%, 70%, 80% {
+    -webkit-transform: scale3d(1.05, 1.05, 1 );
+    transform: scale3d(1.05, 1.05, 1);
   }
 }
 
 .heartbeat {
   -webkit-animation-name: heartbeat;
-          animation-name: heartbeat;
+  animation-name: heartbeat;
 }
 
 @-webkit-keyframes rubberBand {
